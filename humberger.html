@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>humberger_menu</title>
+  <link rel="stylesheet" href="humberger.css">
+</head>
+<body>
+  <div id="container">
+  	<div class="circle icon">
+  		<span class="bar top"></span>
+  		<span class="bar middle"></span>
+  		<span class="bar bottom"></span>
+  	</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+  	$("#container").click(function(){
+  		$(".icon").toggleClass("close");
+  	})
+  </script>
+</body>
+</html>
